@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS calculator</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container">
+			<div class="item input">
+				<form action="#" name="form">
+					<input type="text" name="textview" readonly>
+				</form>
+			</div>
+			<div class="item clean" onclick="makeClean()">C</div>
+			<div class="item back" onclick="makeBack()">&larr;</div>
+			<div class="item" onclick="insertSym('+')">+</div>
+			<div class="item" onclick="insertSym('-')">-</div>
+			<div class="item" onclick="insertSym('*')">&times;</div>
+			<div class="item" onclick="insertSym('/')">&divide;</div>
+			<div class="item" onclick="insertSym('7')">7</div>
+			<div class="item" onclick="insertSym('8')">8</div>
+			<div class="item" onclick="insertSym('9')">9</div>
+			<div class="item" onclick="insertSym('(')">(</div>
+			<div class="item" onclick="insertSym('4')">4</div>
+			<div class="item" onclick="insertSym('5')">5</div>
+			<div class="item" onclick="insertSym('6')">6</div>
+			<div class="item" onclick="insertSym(')')">)</div>
+			<div class="item" onclick="insertSym('1')">1</div>
+			<div class="item" onclick="insertSym('2')">2</div>
+			<div class="item" onclick="insertSym('3')">3</div>
+			<div class="item equal" onclick="calculate()">=</div>
+			<div class="item zero" onclick="insertSym('0')">0</div>
+			<div class="item" onclick="insertSym('.')">.</div>
+		</div>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
